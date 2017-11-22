@@ -2,7 +2,7 @@ package com.adveloper;
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+//TEST MY Comment
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
     private long id;
