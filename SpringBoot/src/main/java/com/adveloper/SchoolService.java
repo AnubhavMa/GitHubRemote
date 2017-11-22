@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class SchoolService {
 	
 	
-	//TEST
+	//TEST    
 	 
 	   @RequestMapping(value="/students/{id}")
 	   public Student getStudent(@PathVariable String id){
