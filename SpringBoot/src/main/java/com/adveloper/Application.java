@@ -11,6 +11,8 @@ public class Application {
 	 
 	   public static void main(String[] args) {
 	      hmStudent=new HashMap<Long,Student>();
+	      
+	      
 	 
 	      Student one=new Student("John","math");
 	      hmStudent.put(new Long(one.getId()),one);
